@@ -5,3 +5,34 @@
   font-family: "inter", sens-serif;
 }
 
+body {
+  background-color: #141414;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  background-color: #1f1f1f;
+  width: 384px;
+  padding: 40px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+div img {
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+h1, p, a {
+  color: #aaa;
+}
+
+div h1 {
+  line-height: 36px;
+  font-size: 24;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
